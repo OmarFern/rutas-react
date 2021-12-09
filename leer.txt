@@ -1,0 +1,30 @@
+
+
+2_ npm install react-router-dom         NO FUNCIONA  version v5
+
+
+
+1_ npm init react-app "app-react"
+2_ npm add react-router-dom@6                      version v6 
+#----------------carpeta-----------------------------#
+app.js
+import { BrowserRouter as Router, Route ,Link, Routes} from "react-router-dom"
+#................carpeta-----------------------------#
+index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+#-----------------------------------------------------#
+
+
+
+
+https://dev.to/salehmubashar/react-router-dom-36a2
+https://www.youtube.com/watch?v=zLiMsF0UlpI
